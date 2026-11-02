@@ -3,6 +3,7 @@
     const menuToggle = document.querySelector('.menu-toggle');
     const closeMenu = document.querySelector('.close-menu');
     const mobileMenu = document.getElementById('main-menu');
+
     if (menuToggle) {
         menuToggle.addEventListener('click', function () {
             mobileMenu.classList.remove('-translate-x-full');
@@ -19,6 +20,7 @@
     // ========== USER DROPDOWN TOGGLE ==========
     const guestUserToggle = document.getElementById('guestUserToggle');
     const guestUserMenu = document.getElementById('guestUserMenu');
+
 
     if (guestUserToggle && guestUserMenu) {
         let guestMenuTimeout;

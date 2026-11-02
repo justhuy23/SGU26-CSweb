@@ -253,7 +253,6 @@ body.search-active #searchOverlay {
     border: 1px solid #f3f4f6;
     min-width: 220px;
     z-index: 50;
-    display: none;
     animation: slideDown 0.2s ease;
 }
 
